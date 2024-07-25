@@ -19,6 +19,9 @@ header{
     justify-content: space-between;
     padding: 35px 20px;
 }
+.menu-desktop{
+    display: none;
+}
 .brand-section{
     padding: 90px 10px;
     text-align: center;
@@ -34,6 +37,9 @@ header{
 }
 main{
     font-family: "Barlow", sans-serif;
+}
+h2{
+    font-size: 30px;
 }
 .img1{
     height: 225px;
@@ -68,6 +74,7 @@ main{
 
 .title1 h2{
     padding: 0px 30px;
+    font-family: "Fraunces";
 }
 .para1 p{
     padding: 25px 0px;
@@ -89,6 +96,7 @@ main{
 }
 .title2 h2{
     padding: 20px 10px;
+    font-family: "Fraunces";
 }
 .para2 p{
     padding: 0px 20px;
@@ -110,9 +118,13 @@ main{
 }
 .title3{
     padding: 35px 20px;
+    font-family: "Fraunces";
 }
 .title3 h2{
     text-align: center;
+    font-family: "Fraunces";
+    font-size: 25px;
+    color: rgb(198, 197, 197);
 }
 .testimonials{
     padding: 20px 20px;
@@ -138,6 +150,9 @@ main{
 .testimonials .text4 span{
     padding: 10px 10px;
     text-align: center;
+}
+.nom{
+    font-weight: bold;
 }
 .img-container{
     display: grid;
@@ -190,6 +205,10 @@ footer{
         background-repeat: no-repeat; 
         background-position: center;
         flex-direction: column;
+    }
+    .menu-desktop{
+        display: flex;
+        justify-content: space-between;
     }
     .brand-section{
         padding: 100px 10px;
