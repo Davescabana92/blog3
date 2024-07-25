@@ -12,6 +12,7 @@ header{
     background-repeat: no-repeat; 
     background-position: center;
     flex-direction: column;
+    font-family: "Fraunces";
 }
 .logo-section{
     display: flex;
@@ -30,6 +31,9 @@ header{
 }
 .arrow-pict img{
     height: 100px;
+}
+main{
+    font-family: "Barlow", sans-serif;
 }
 .img1{
     height: 225px;
